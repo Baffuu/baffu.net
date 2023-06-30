@@ -349,18 +349,18 @@ button {
   align-items: center;
   transform-origin: center top;
   animation-timing-function: cubic-bezier(0.6, 0, 0.38, 1);
-  animation: move 5.1s infinite;
+  animation: move 7s infinite;
 }
 
 @keyframes move {
   0% {
-    transform: rotate(40deg);
+    transform: rotate(50deg);
   }
   50% {
-    transform: rotate(-40deg);
+    transform: rotate(-50deg);
   }
   100% {
-    transform: rotate(40deg);
+    transform: rotate(50deg);
   }
 }
 
