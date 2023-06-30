@@ -78,7 +78,7 @@ body:before {
     transform: scale(1);
     width: 100vw;
     z-index: 0;
-    background-image: linear-gradient(to top, rgba(24,13,105,0.471), rgba(24,13,105,0.471)), url('assets/images/bg.jpg?v=91f45e39');
+    background-image: linear-gradient(to top, rgba(24,13,105,0.471), rgba(24,13,105,0.471)), url('../assets/background.jpg');
     background-position: 0% 0%, bottom;
     background-repeat: repeat, no-repeat;
     background-size: auto, cover;
@@ -984,18 +984,6 @@ h1.style2 span.p, h2.style2 span.p, h3.style2 span.p, p.style2 span.p {
     z-index: 1;
 }
 
-.icc-credits span a:before {
-    content: '( ';
-    opacity: 1;
-    transition: opacity 0.25s ease;
-}
-
-.icc-credits span a:after {
-    content: ' )';
-    opacity: 1;
-    transition: opacity 0.25s ease;
-}
-
 .icc-credits span::after {
     background-image: linear-gradient(30deg, #A464A1 15%, #3B5DAD 85%);
     border-radius: inherit;
@@ -1017,7 +1005,7 @@ h1.style2 span.p, h2.style2 span.p, h3.style2 span.p, p.style2 span.p {
 }
 
 .icc-credits span:hover a {
-    color: #ffffff !important;
+    color: #46cce6 !important;
     transform: scale(1.1) translateY(-0.05rem);
 }
 
@@ -1035,7 +1023,7 @@ h1.style2 span.p, h2.style2 span.p, h3.style2 span.p, p.style2 span.p {
 }
 
 #credits span {
-    color: rgba(40,199,209,0.498);
+    color: rgba(58, 188, 197, 0);
 }
 
 @media (max-width: 1920px) {
